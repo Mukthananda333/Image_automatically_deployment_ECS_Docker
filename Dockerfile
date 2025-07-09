@@ -1,4 +1,4 @@
-FROM node:12 As builder
+FROM node:12 AS builder
 RUN npm install -g @angular/cli@9.0.6
 WORKDIR /my-project
 COPY . .
